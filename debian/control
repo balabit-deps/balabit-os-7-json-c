@@ -1,6 +1,7 @@
 Source: json-c
 Priority: extra
-Maintainer: fabien boucher <fabien.dot.boucher@gmail.com>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: fabien boucher <fabien.dot.boucher@gmail.com>
 Uploaders: Ondřej Surý <ondrej@debian.org>
 Build-Depends: autotools-dev,
                debhelper (>= 9),

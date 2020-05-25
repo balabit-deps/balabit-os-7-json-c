@@ -1,3 +1,14 @@
+json-c (0.12.1-1.3ubuntu0.3) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: Integer overflows
+    - debian/patches/CVE-2020-12762-*.patch: fix a series of
+      integer overflows adding checks in linkhash.c, printbuf.c, test4.c
+      test4.expected, also adds the  fix for the INT_MAX regression caused in update
+      0.11-4ubuntu2.1.
+    - CVE-2020-12762
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Mon, 25 May 2020 12:29:13 -0300
+
 json-c (0.12.1-1.3ubuntu0.2) bionic-security; urgency=medium
 
   * Revert the security fixes and rebuild the old version (LP: #1878723)
